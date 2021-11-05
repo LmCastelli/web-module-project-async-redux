@@ -1,10 +1,13 @@
+import React from 'react'
 
+import Activity from './components/Activity'
 
 
 function App() {
   return (
     <div className="App">
-      <h1>"hii"</h1>
+      <h1>"Need an Activity?"</h1>
+      <Activity />
     </div>
   );
 }
